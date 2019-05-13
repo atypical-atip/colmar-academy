@@ -63,8 +63,8 @@ a {
 .right-item {
     display: flex;
     padding: 16px;
-    border-top: 1px solid #e0e2e2;
-    border-bottom: 1px solid #e0e2e2;
+    border-top: 1px solid #E0E2E0;
+    border-bottom: 1px solid #E0E2E0;
     margin-bottom: 1px;
 }
 
@@ -244,4 +244,29 @@ header ul li a {
 
 .thesis-video .text-container {
     padding: 16px 0;
+}
+
+/* footer */
+footer {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 24px;
+    border-top: 1px solid #E0E2E0;
+    font-size: 0.750rem;   
+}
+
+footer .terms {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;    
+}
+
+.terms a {
+    color: #4A4A4A;
+    padding-right: 16px;
+}
+
+.terms a:last-child {
+    padding-right: 0;
 }
