@@ -54,6 +54,33 @@ a {
     background-color: #D8D8D8;
 }
 
+/* Right items */
+
+.right-items-container {
+    width: 40%;
+}
+
+.right-item {
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid #e0e2e2;
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom: 1px;
+}
+
+.right-item .img-container {
+    width: 35%;
+}
+
+.right-item-descr {
+    width: 65%;
+    padding-left: 16px;
+}
+
+.right-item-descr a {
+    color: #4a90e2;
+}
+
 /* header */
 header {
     width: 100%;
@@ -156,31 +183,6 @@ header ul li a {
     margin-bottom: 1.5rem;
 }
 
-.information .info-text {
-    width: 40%;
-}
-
-.info-text-item {
-    display: flex;
-    padding: 16px;
-    border-top: 1px solid #e0e2e2;
-    border-bottom: 1px solid #e0e2e2;
-    margin-bottom: 1px;
-}
-
-.info-text-item .img-container {
-    width: 35%;
-}
-
-.info-text-item .item-descr {
-    width: 65%;
-    padding-left: 16px;
-}
-
-.item-descr a {
-    color: #4a90e2;
-}
-
 /* Course */
 #course {
     display: grid;
@@ -214,3 +216,32 @@ header ul li a {
     text-transform: uppercase;
 }
 
+/* Thesis */
+
+#thesis {
+    text-align: center;
+}
+
+#thesis h2 {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+#thesis .thesis-content {
+    display: flex;
+}
+
+.thesis-video {
+    width: 60%;
+    padding-right: 24px;
+    text-align: left;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+.thesis-video .text-container {
+    padding: 16px 0;
+}
