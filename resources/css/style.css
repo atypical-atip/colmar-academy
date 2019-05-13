@@ -16,10 +16,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: serif;
+    color: #4A4A4A;
 }
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .content {
@@ -31,7 +33,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #4a4a4a;
+    color: #4A4A4A;
 }
 
 h1 {
@@ -41,6 +43,10 @@ h1 {
 h3 {
     font-weight: 500;
     font-size: 1.250rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* header */
@@ -93,7 +99,7 @@ header ul li:last-child {
 
 header ul li a {
     display: inline-block;
-    color: #4a4a4a;
+    color: #4A4A4A;
     text-decoration: none;    
 }
 
@@ -138,10 +144,39 @@ header ul li a {
 .information .article {
     width: 60%;
     padding-right: 24px;
-    border-right: 1px solid #99bb99;
+    border-right: 1px solid #e0e2e2;
 }
 
 .information h2 {
-    margin-top: 32px;
-    margin-bottom: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.information .info-text {
+    width: 40%;
+}
+
+.info-text-item {
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid #e0e2e2;
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom: 1px;
+}
+
+.info-text-item .img-container {
+    width: 35%;
+}
+
+.info-text-item .item-descr {
+    width: 65%;
+    padding-left: 16px;
+}
+
+.item-descr a {
+    color: #4a90e2;
+}
+
+.guest {
+    background-color: #D8D8D8;
 }
